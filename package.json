@@ -1,0 +1,23 @@
+{
+  "name": "172finalproject",
+  "version": "1.0.0",
+  "description": "http://localhost:8081/beers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risharay/Group4_172Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/risharay/Group4_172Project/issues"
+  },
+  "homepage": "https://github.com/risharay/Group4_172Project#readme",
+  "dependencies": {
+    "react-router-dom": "^6.0.1"
+  }
+}

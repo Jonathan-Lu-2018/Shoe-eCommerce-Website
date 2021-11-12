@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+#introduction {
+  background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), url('https://wallpaper.dog/large/373583.jpg') 0% 0%/cover 
+}
+
+
+
+
+html {
+  overflow-y: scroll;
+  background: #181d2a;
+}
+.container {
+  text-align: center;
+}
+.body {
+  background: #181d2a;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+h1 {
+  color: #95d3e9;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.form {
+  background: #2e74b7;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  max-width: 400px;
+  max-height: 700px;
+  margin: 40px auto;
+  margin-top: 250px;
+  justify-content: center;
+}
+button {
+  border-radius: 8px;
+  background-color: #181d2a;
+  color: #efd604;
+  font-family: "Playfair Display", serif;
+}
+
+input {
+  border-radius: 8px;
+  border-color: #efd604;
+  font-family: "Playfair Display", serif;
+}
+
+.navbut {
+  border-radius: 8px;
+  background-color: #efd604;
+  color: red;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

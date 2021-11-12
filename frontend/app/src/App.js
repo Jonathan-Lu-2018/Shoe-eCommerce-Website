@@ -1,64 +1,72 @@
-import React from 'react';
-import './App.css';
-import Main from './Components/Main';
-import {BrowserRouter} from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import Main from "./Components/Main";
+import { Link, Switch, BrowserRouter, Route } from "react-router-dom";
+import Login from "./login.js";
+import SignUp from "./signup";
+import Home from "./home.js"
 
-
+const rootElement = document.getElementById("root");
 function App() {
   return (
-    <div class="container">
-		
-		<div class="form">
-  
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Make an Account</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
+    <BrowserRouter>
+      <div>
+        <Route path="/login.js" component={Login} />
 
-              <input type="text" placeholder = "First Name" required autocomplete="off" />
-            </div>
+        <Route path="/signup.js" component={SignUp} />
+
+        <Route path="/home.js" component={Home} />
         
-            <div class="field-wrap">
-              <label>
-                <span class="req"> </span>
-              </label>
-              <input type="text" placeholder = "Last Name" required autocomplete="off"/>
-            </div>
-          </div>
 
-          <div class="field-wrap">
-            <input type="email" placeholder = "Email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-
-            <input type="password" placeholder = "Password" required autocomplete="off"/>
-          </div>
-          
-            
-      
-       <button type="button" onclick="signUp()">Sign Up</button>  <button type="button" onclick="signUp()">Login</button>
-      
-     
-      
-          
-          </form>
-
-        </div>
-        
        
+
+        <Link to="/login.js">
+          <div name="button">
+            <button>Go to Login</button>
+          </div>
+        </Link>
+        <Link to="/signup.js">
+          <div name="button">
+            <button>Sign Up</button>
+          </div>
+        </Link>
+
+        <Link to="/home.js">
+          <div name="button">
+            <button>Home</button>
+          </div>
+        </Link>
       </div>
-      
-</div>
-		<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
-		<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
-	</div>
+    </BrowserRouter>
   );
 }
 
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <Link to="/login.js">
+//         <button>Go to Login</button>
+//       </Link>
+//     </BrowserRouter>
+//   );
+// };
+
+const LoginPage = () => {
+  return (
+    <div>
+      <h1>LoginPage </h1>
+      <Link to="/login.js">Go to Loginpage</Link>
+    </div>
+  );
+};
+
+const SignUpPage = () => {
+  return (
+    <div>
+      <h1>Sign Up Page</h1>
+      <Link to="/">Go to SignUpPage</Link>
+    </div>
+  );
+};
+export { LoginPage, SignUpPage }; //new
 export default App;
