@@ -25,13 +25,13 @@ We have created an e-commerce web application focused on selling shoes of differ
 
 ### Application Features:
 #### Register: 
-      To access the web app, a user must have an account. New users can create their own personal accounts by entering their username, a valid email address, and a password. Once registered, the user's credentials are saved via MySQL Database and will allow the user to login at any time.
+To access the web app, a user must have an account. New users can create their own personal accounts by entering their username, a valid email address, and a password. Once registered, the user's credentials are saved via MySQL Database and will allow the user to login at any time.
       
 #### Login: 
-      Existing users who have made accounts can log into the web app to access its features. Once a user is logged in, they are redirected to the homepage where they will be able to access to the chat-room.
+Existing users who have made accounts can log into the web app to access its features. Once a user is logged in, they are redirected to the homepage where they will be able to access to the chat-room.
 
 #### Catalog: 
-      Users who are logged into the web app can view the list of shoes available on the website.
+Users who are logged into the web app can view the list of shoes available on the website.
   
 ### Built With: 
  - JavaScript
