@@ -55,12 +55,16 @@ Users who are logged into the web app can view the list of shoes available on th
  - AWS
  - MySQL
 
+### Home Page: 
 <img width="1185" alt="Screen Shot 2021-11-26 at 9 07 21 PM" src="https://user-images.githubusercontent.com/60593060/143668876-fb1d5952-f220-4af3-9b3b-4ed1c13f4aed.png">
 
+### Login Page: 
 <img width="1180" alt="Screen Shot 2021-11-26 at 9 08 06 PM" src="https://user-images.githubusercontent.com/60593060/143668882-950a0546-1c39-4008-bad4-cd8fcd770950.png">
 
+### Register Page:
 <img width="1179" alt="Screen Shot 2021-11-26 at 9 08 22 PM" src="https://user-images.githubusercontent.com/60593060/143668887-2d3b70dc-09b6-4c7b-9c21-d2dac3058c3d.png">
 
+### Shop Catalog:
 <img width="1182" alt="Screen Shot 2021-11-26 at 9 08 54 PM" src="https://user-images.githubusercontent.com/60593060/143668892-59a7e054-1691-402d-9f60-81619ebef645.png">
 
 
