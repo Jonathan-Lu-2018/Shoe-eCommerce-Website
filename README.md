@@ -5,6 +5,12 @@
 ### Project Introduction:
 We have created an e-commerce web application focused on selling shoes of different brands. Using the different services, we have created a fully functional three-tier application consisting of a presentation, application, and data tier. The presentation tier focuses on the user's interaction with our application, the application tier is the way our data is processed and updated and the data tier is where all our data is being stored.  Some of the features included in our application, is that customers will be able to set up their own account. They will have the option to view a page of listings where they can look through a page of shoe options that they can choose from. This application has the foundation for scalability in order to expand the product and user base.
 
+### System Design
+### Class Diagram
+### Sequence Diagram
+### Interaction Diagram
+### Database Schema Diagrams
+
 ##### More information regarding our documentation can be found under the folder project-slides
 
 ### Set-Up:
