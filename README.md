@@ -7,12 +7,16 @@ We have created an e-commerce web application focused on selling shoes of differ
 
 ### System Design
 ![GitHub Logo](/images/SystemDesign.png)
+
 ### Class Diagram
 ![GitHub Logo](/images/ClassDiagram.png)
+
 ### Sequence Diagram
 ![GitHub Logo](/images/SequenceDiagram.png)
+
 ### Interaction Diagram
 ![GitHub Logo](/images/InteractionDiagram.png)
+
 ### Database Schema Diagrams
 #### Shoe Catalog Schema
 ![GitHub Logo](/images/ShoeCatalogSchema.png)
