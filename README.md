@@ -1,10 +1,10 @@
 # San Jose State University
 ## Enterprise Software - CMPE 172 / Fall 2021
 ### A. Team Members
-    * Jonathan Lu (012704029)
-    * Isaac Mcdonald (013082030)
-    * Dhirtitapa(Risha) Ray (013130104)
-    * Karthika Thiruvallur (013306722)
+    - Jonathan Lu (012704029)
+    - Isaac Mcdonald (013082030)
+    - Dhirtitapa(Risha) Ray (013130104)
+    - Karthika Thiruvallur (013306722)
    
  
 ### B. Project Introduction
@@ -52,25 +52,26 @@
 ### I. How To Run The Project:
       1. Make sure the server is running. 
       2. Make sure all all links in every file match your localhost name. The code is set up to have the localhost name "localhost" 
-3. Go to http://{your localhost name}
+      3. Go to http://{your localhost name}
 
-### Application Features:
-#### Register: 
-To access the web app, a user must have an account. New users can create their own personal accounts by entering their username, a valid email address, and a password. Once registered, the user's credentials are saved via MySQL Database and will allow the user to login at any time.
+### I. Application Features:
+#### 1. Register: 
+      To access the web app, a user must have an account. New users can create their own personal accounts by entering their username, a valid email address, and 
+      a password. Once registered, the user's credentials are saved via MySQL Database and will allow the user to login at any time.
       
-#### Login: 
-Existing users who have made accounts can log into the web app to access its features. Once a user is logged in, they are redirected to the homepage where they will be able to access to the chat-room.
+#### 2. Login: 
+      Existing users who have made accounts can log into the web app to access its features. Once a user is logged in, they are redirected to the homepage where       they will be able to access to the chat-room.
 
-#### Catalog: 
-Users who are logged into the web app can view the list of shoes available on the website.
+#### 3. Catalog: 
+      Users who are logged into the web app can view the list of shoes available on the website.
   
-### Built With: 
- - JavaScript
- - React
- - Spring Boot
- - Java
- - AWS
- - MySQL
+### 4. Built With: 
+       - JavaScript
+       - React
+       - Spring Boot
+       - Java
+       - AWS
+       - MySQL
 
 ### Home Page: 
 <img width="1185" alt="Screen Shot 2021-11-26 at 9 07 21 PM" src="https://user-images.githubusercontent.com/60593060/143668876-fb1d5952-f220-4af3-9b3b-4ed1c13f4aed.png">
