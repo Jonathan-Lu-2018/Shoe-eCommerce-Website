@@ -37,7 +37,7 @@
 
 ##### More information regarding our documentation can be found under the folder project-slides
 
-### H. Set-Up
+### H. Set-Up Locally
    
 ####  Spring Boot
       Verify that Spring Boot can be run by your computer and other applications such as MySQL is installed.
