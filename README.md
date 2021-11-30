@@ -18,9 +18,7 @@
    ![GitHub Logo](/images/SystemDesign.png)
 
 ### D. Class Diagram
-   <p align="center">
-  <img width="460" height="300" src="/images/ClassDiagram.png">
-  </p> 
+  ![GitHub Logo](/images/ClassDiagram.png) <p align="center">
 
 ### E. Sequence Diagram
 ![GitHub Logo](/images/SequenceDiagram.png)
