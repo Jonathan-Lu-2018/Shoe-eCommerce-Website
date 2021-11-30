@@ -15,7 +15,7 @@
        product and user base.
 
 ### C. System Design
-    ![GitHub Logo](/images/SystemDesign.png)
+   ![GitHub Logo](/images/SystemDesign.png)
 
 ### D. Class Diagram
     ![GitHub Logo](/images/ClassDiagram.png)
