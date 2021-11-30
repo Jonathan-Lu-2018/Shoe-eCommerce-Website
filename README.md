@@ -5,6 +5,7 @@
     * Isaac Mcdonald (013082030)
     * Dhirtitapa(Risha) Ray (013130104)
     * Karthika Thiruvallur (013306722)
+   
  
 ### B. Project Introduction
        We have created an e-commerce web application focused on selling shoes of different brands. Using the different services, we have created a fully  
@@ -21,35 +22,36 @@
   ![GitHub Logo](/images/ClassDiagram.png) <p align="center">
 
 ### E. Sequence Diagram
-![GitHub Logo](/images/SequenceDiagram.png)
+  ![GitHub Logo](/images/SequenceDiagram.png)
 
 ### F. Interaction Diagram
-![GitHub Logo](/images/InteractionDiagram.png)
+  ![GitHub Logo](/images/InteractionDiagram.png)
 
-### Database Schema Diagrams
-#### Shoe Catalog Schema
-![GitHub Logo](/images/ShoeCatalogSchema.png)
+### G. Database Schema Diagrams
+#### 1. Shoe Catalog Schema
+  ![GitHub Logo](/images/ShoeCatalogSchema.png)
 
 
-#### G. Account Schema
-![GitHub Logo](/images/AccountSchema.png)
+#### 2. Account Schema
+  ![GitHub Logo](/images/AccountSchema.png)
 
 ##### More information regarding our documentation can be found under the folder project-slides
 
-### Set-Up:
-#### Spring Boot
-1. Verify that Spring Boot can be run by your computer and other applications such as MySQL is installed.
+### H. Set-Up:
+   
+#### 1.Spring Boot
+      Verify that Spring Boot can be run by your computer and other applications such as MySQL is installed.
 
-#### MySQL
-1. Verify that the MySQL database is connected through MySQL Workbench.
+#### 2. MySQL
+      Verify that the MySQL database is connected through MySQL Workbench.
 
-#### React
-1. Verify that React and npm is installed on your device.
-2. [include the steps with deleting node modules files]
+#### 3. React
+      Verify that React and npm is installed on your device.
+      [include the steps with deleting node modules files]
 
-### How To Run The Project:
-1. Make sure the server is running. 
-2. Make sure all all links in every file match your localhost name. The code is set up to have the localhost name "localhost" 
+### I. How To Run The Project:
+      1. Make sure the server is running. 
+      2. Make sure all all links in every file match your localhost name. The code is set up to have the localhost name "localhost" 
 3. Go to http://{your localhost name}
 
 ### Application Features:
