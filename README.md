@@ -1,10 +1,10 @@
 # San Jose State University
 ## Enterprise Software - CMPE 172 / Fall 2021
 ### A. Team Members
-  * Jonathan Lu (012704029)
-  * Isaac Mcdonald (013082030)
-  * Dhirtitapa(Risha) Ray (013130104)
-  * Karthika Thiruvallur (013306722)
+    * Jonathan Lu (012704029)
+    * Isaac Mcdonald (013082030)
+    * Dhirtitapa(Risha) Ray (013130104)
+    * Karthika Thiruvallur (013306722)
  
 ### B. Project Introduction
        We have created an e-commerce web application focused on selling shoes of different brands. Using the different services, we have created a fully  
@@ -15,10 +15,10 @@
        product and user base.
 
 ### C. System Design
-![GitHub Logo](/images/SystemDesign.png)
+    ![GitHub Logo](/images/SystemDesign.png)
 
 ### D. Class Diagram
-![GitHub Logo](/images/ClassDiagram.png)
+    ![GitHub Logo](/images/ClassDiagram.png)
 
 ### E. Sequence Diagram
 ![GitHub Logo](/images/SequenceDiagram.png)
