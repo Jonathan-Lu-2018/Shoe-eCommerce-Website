@@ -1,10 +1,10 @@
 # San Jose State University
 ## Enterprise Software - CMPE 172 / Fall 2021
 ### A. Team Members
-    - Jonathan Lu (012704029)
-    - Isaac Mcdonald (013082030)
-    - Dhirtitapa(Risha) Ray (013130104)
-    - Karthika Thiruvallur (013306722)
+    - Jonathan Lu 
+    - Isaac Mcdonald 
+    - Dhirtitapa(Risha) Ray 
+    - Karthika Thiruvallur 
    
  
 ### B. Project Introduction
