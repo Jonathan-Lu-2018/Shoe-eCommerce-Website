@@ -100,7 +100,8 @@
    
 ### Picture 3
  ![GitHub Logo](/images/Live_Link_5.png)
-    
 
+### Note
+       http://ec2-100-24-47-156.compute-1.amazonaws.com:3000/
 
 
