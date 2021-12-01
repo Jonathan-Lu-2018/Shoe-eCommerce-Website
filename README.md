@@ -101,6 +101,8 @@
 ### Picture 3
  ![GitHub Logo](/images/Live_Link_5.PNG)
     
-
+### NOTE
+    http://ec2-34-229-147-24.compute-1.amazonaws.com:8081/shoes
+    
 
 
