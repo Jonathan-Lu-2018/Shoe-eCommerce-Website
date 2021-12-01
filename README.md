@@ -47,7 +47,11 @@
 
 #### React
       Verify that React and npm is installed on your device.
-      [include the steps with deleting node modules files]
+          1. Showing real EC2 instance running and ready for use
+          2. PUTTY application to connect ec2 instance to local machine to configure EC2 instance
+          3. More PUTTY configurations
+          4. Console linked to EC2 instance
+          5. Application deployment, picutre has additional text details
 
 ### I. How To Run The Project
       1. Make sure the server is running. 
