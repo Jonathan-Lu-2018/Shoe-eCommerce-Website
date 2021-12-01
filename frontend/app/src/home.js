@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./home.css";
 
 
 function Home() {
@@ -9,9 +9,12 @@ function Home() {
            <div class="container">
                <div class="row fill-viewport align-items-center">
                    <div class="col-12 col-md-6">
-                       <h1 class="text-white">Welcome to Galaxy Shoes</h1>
-                       <p class="lead text-white-70">Explore the largest collection of shoes ranging from all brands</p>
-                       <a class="btn btn-primary" href="/signup.js" role="button">Sign up today!</a>
+                       <p1 class="text-white-70">Galaxy Shoes</p1>
+                       <p class="lead text-white-70">Explore our diverse collection of popular brands</p>
+					   	<div class="login-cont">
+							<a class="login" href="/login.js">Login</a>
+						</div>
+                       <a class="signup-button" href="/signup.js" role="button">Sign up today!</a>
                     </div>
                 </div>
             </div>
@@ -21,42 +24,48 @@ function Home() {
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12 col-md-6 mx-auto mt-5 text-center">
-                        <h6 class="text-black-40 text-uppercase">
+                        <p2 class="advert-main">
                             The Ultimate Shoe Store
-                        </h6>
-                        <h3 class="text-black-70">Find the best outfit for your feet!!!</h3>
+                        </p2>
+                        <p3 class="advert-alt">Find the best outfit for your feet!</p3>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="https://i.pinimg.com/originals/d2/2c/d4/d22cd44291102f5f8861153e1ec287e1.jpg" class="mt-4"/>
-                        <p>
-                            <strong class="text-info">All Seasons</strong>
-                        </p>
+                    <div className="homepics" class="col-12 col-md-4 text-center">
+                        <a className="homecard" href="/shoes.js">
+							<img src="/images/allszn.jpg" alt="allszn" class="mt-4"/>
+                        	<p>
+								<p3>All Seasons</p3>
+                        	</p>
+						</a>
                     </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="https://cdn.shopify.com/s/files/1/0150/2598/products/AirJordan5RagingBullMen1_clipped_rev_1_1600x.jpg?v=1626793202" class="mt-4"/>
-                        <p>
-                            <strong class="text-info">Stylish</strong>
-                        </p>
+                    <div className="homepics" class="col-12 col-md-4 text-center">
+                        <a className="homecard" href="/shoes.js">
+							<img src="/images/stylish.jpg" alt="stylish" class="mt-4"/>
+                        	<p>
+								<p3>Stylish</p3>
+                        	</p>
+						</a>
                     </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="https://i.pinimg.com/564x/50/d2/f3/50d2f35b7193cea1e69510e094ab7f40.jpg" class="mt-4"/>
-                        <p>
-                            <strong class="text-info">Sports</strong> 
-                        </p>
+                    <div className="homepics" class="col-12 col-md-4 text-center">
+                        <a className="homecard" href="/shoes.js">
+							<img src="/images/sport.jpg" alt="sports" class="mt-4"/>
+                        	<p>
+								<p3>Sports</p3>
+                        	</p>
+						</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id = "footer" class= "bg-dark">
+        <section id = "introduction">
             <div class= "container">
                 <div class= "row fill-40-viewport py-5 text-white-70 align-items-center">
                     <div class = "col-12 col-md-6">
                         <ul class= "list-unstyled">
-                            <li><h6 class= "text-white">ABOUT</h6></li>
-                            <li> A new platform for finding shoes for youngsters</li>
+                            <li><p3 class= "text-white">ABOUT</p3></li>
+                            <li> A new platform for finding the best shoes to match your style!</li>
                         </ul>
                     </div>
                 </div>

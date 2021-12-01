@@ -6,5 +6,5 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RepositoryRestResource
 @CrossOrigin(origins="http://localhost:3000")
-public interface IRestRepository extends CrudRepository<Beer, Long>{
+public interface IRestRepository extends CrudRepository<Shoe, Long>{
 }

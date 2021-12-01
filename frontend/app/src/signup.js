@@ -1,16 +1,16 @@
 import React from "react";
-import { Link, Switch, BrowserRouter, Route } from "react-router-dom";
+import { Link, /*Switch,*/ BrowserRouter, /*Route*/ } from "react-router-dom";
 import "./login.css";
 import "./index.css";
-import Login from "./login.js";
-import App from "./App";
-import Home from "./home.js"
+//import Login from "./login.js";
+//import App from "./App";
+//import Home from "./home.js"
 
 function SignUp() {
 
-  const signup = () => {
+  /*const signup = () => {
    
-  };
+  };*/
   return (
     <BrowserRouter>
       <div>
@@ -22,15 +22,14 @@ function SignUp() {
         </Switch> */}
 
 
-        <div class="body">
-          <div class="container">
+        <div class="log_sign">
             <div class="form">
               <div class="tab-content">
                 <div id="signup">
-                  <h1>Create an Account</h1>
+                  <h1>Create Account</h1>
                   <br></br>
                   <div name="input"></div>
-                  <form action="/" method="post">
+                  {/*<form action="/" method="post">*/}
                     <div class="top-row">
                       <div class="field-wrap">
                         <input
@@ -55,26 +54,24 @@ function SignUp() {
                     </div>
                     <br></br>
                     <div name="signupbutton">
-                      <Link to="/signup.js">
-                        <button onClick={signup}>Sign Up</button>
-
+                      <Link to="/shoes.js">
+                        <button className="signupbut" onClick="/shoes.js">Sign Up</button>
                       </Link>
                     </div>
-                  </form>
+                  {/*</form>*/}
                 </div>
               </div>
             </div>
           </div>
           <div class="navbut">
             <Link to="/">
-              <button onClick= {"/"}>Home</button>
+              <button className="navbuts"  onClick= {"/"}>Home</button>
             </Link>
             <Link to="/login.js">
-              <button onClick={"/login.js"}>Login</button>
+              <button className="navbuts"  onClick={"/login.js"}>Login</button>
             </Link>
           </div>
         </div>
-      </div>
     </BrowserRouter>
   );
 }

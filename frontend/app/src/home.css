@@ -1,9 +1,11 @@
 #introduction {
-    background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), url('https://wallpaper.dog/large/373583.jpg') 0% 0%/cover 
+    background: url('/images/test.bmp') 0% 0%/cover;
   }
   
   
-  
+  .homepics {
+  	align-items: center;
+  }
   
   #feature-rundown img {
     width: 120px;
@@ -32,7 +34,7 @@
     background-color: transparent
   }
   .text-white-70 {
-    color: rgba(255,255,255,0.7)
+    color: white;
   }
   .text-black-70 {
     color: rgba(0,0,0,0.7)
@@ -74,4 +76,49 @@
     .basis-md-50 {
       flex-basis: 50%
     }  
+  }
+  
+  strong {
+  	color: white;
+  }
+  
+  .advert-alt {
+  	color: white;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+  }
+  
+  .advert-main {
+  	color: white;
+  	text-shadow: 0 0 40px rgba(0,0,0,0.8);
+  }
+ 
+  .login-cont{
+  	margin-bottom: 30px;
+  }
+ 
+  .login {
+  	font-size: 20px;
+  	color: white;
+  	text-decoration: underline;
+  }
+  
+  .login:hover {
+  	font-size: 20px;
+  	color: dodgerblue;
+  	text-decoration: none;
+  }
+  
+  .signup-button {
+  	padding: 12px;
+  	background: dodgerblue;
+  	border: none;
+  	color: white;
+  	border-radius: 10px;
+  }
+  
+    .signup-button:hover {
+  	background: white;
+  	border: none;
+  	color: dodgerblue;
+  	text-decoration: none;
   }

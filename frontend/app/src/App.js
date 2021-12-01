@@ -1,25 +1,22 @@
 import React from "react";
 import "./App.css";
-import Main from "./Components/Main";
-import { Link, Switch, BrowserRouter, Route } from "react-router-dom";
+import { Link, /*Switch,*/ BrowserRouter, Route } from "react-router-dom";
 import Login from "./login.js";
 import SignUp from "./signup";
 import Home from "./home.js"
+import shoe from "./shoes.js"
+//import cart from "./cart.js"
 
-const rootElement = document.getElementById("root");
+//const rootElement = document.getElementById("root");
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Route path="/login.js" component={Login} />
-
         <Route path="/signup.js" component={SignUp} />
-
         <Route path="/home.js" component={Home} />
+		<Route path="/shoes.js" component={shoe} />
         
-
-       
-
         <Link to="/login.js">
           <div name="button">
             <button>Go to Login</button>
@@ -36,6 +33,13 @@ function App() {
             <button>Home</button>
           </div>
         </Link>
+
+        <Link to="/shoes.js">
+          <div name="button">
+            <button>Shoe Catalog</button>
+          </div>
+        </Link>
+
       </div>
     </BrowserRouter>
   );
