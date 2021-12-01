@@ -85,8 +85,18 @@
 
 ### N. Shop Catalog
 <img width="1182" alt="Screen Shot 2021-11-26 at 9 08 54 PM" src="https://user-images.githubusercontent.com/60593060/143668892-59a7e054-1691-402d-9f60-81619ebef645.png">
+    
+### O. EC2 Live Link Pictures
 
-
+### Picture 1
+ ![GitHub Logo](/images/Live_Link_2.PNG)
+    
+### Picture 2
+ ![GitHub Logo](/images/Live_Link_3.PNG)
+    
+### Picture 3
+ ![GitHub Logo](/images/Live_Link_4.PNG)
+    
 
 
 
